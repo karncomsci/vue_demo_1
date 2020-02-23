@@ -1,17 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Demo1 from "../views/Demo1_Intro.vue";
-import Demo2 from "../views/Demo2_EventMethod.vue";
-import Demo3 from "../views/Demo3_Data.vue";
-import Demo4 from "../views/Demo4_Compute.vue";
-import Demo5 from "../views/Demo5_Binding.vue";
-import Demo6 from "../views/Demo6_Form.vue";
-import Demo7 from "../views/Demo7_Slot.vue";
-import Demo8 from "../views/Demo8_Condition.vue";
-import Demo9 from "../views/Demo9_Loop.vue";
-import Demo10 from "../views/Demo10_LifeCycle.vue";
-import Demo11 from "../views/Demo11_Variable_and_State.vue";
+import Home from "@/views/Home.vue";
+import Demo1 from "@/views/Demo1_Intro.vue";
+import Demo2 from "@/views/Demo2_EventMethod.vue";
+import Demo3 from "@/views/Demo3_Data.vue";
+import Demo4 from "@/views/Demo4_Compute.vue";
+import Demo5 from "@/views/Demo5_Binding.vue";
+import Demo6 from "@/views/Demo6_Form.vue";
+import Demo7 from "@/views/Demo7_Slot.vue";
+import Demo8 from "@/views/Demo8_Condition.vue";
+import Demo9 from "@/views/Demo9_Loop.vue";
+import Demo10 from "@/views/Demo10_LifeCycle.vue";
+import Demo11 from "@/views/Demo11_Variable_and_State.vue";
+import Demo12 from "@/views/Demo12_Ref.vue";
+import Demo13 from "@/views/Demo13_Filters.vue";
 
 Vue.use(VueRouter);
 
@@ -75,6 +77,16 @@ const routes = [
     path: "/demo11",
     name: "demo11",
     component: Demo11
+  },
+  {
+    path: "/demo12",
+    name: "demo12",
+    component: Demo12
+  },
+  {
+    path: "/demo13",
+    name: "demo13",
+    component: Demo13
   }
 ];
 

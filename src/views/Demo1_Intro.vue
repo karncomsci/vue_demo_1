@@ -4,7 +4,7 @@
     <!-- MVVM -->
     <input v-model="message" type="text" placeholder="Enter your message" />
     <div>{{ message }}</div>
-    <button @click="message = ''">Reset</button>
+    <button @click="message = ''">Reset</button><br />
   </div>
 </template>
 
@@ -13,7 +13,8 @@ export default {
   name: "demo1",
   data() {
     return {
-      message: ""
+      message: "",
+      count: 0
     };
   }
 };

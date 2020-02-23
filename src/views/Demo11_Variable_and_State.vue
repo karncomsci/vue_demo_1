@@ -17,6 +17,7 @@ export default {
     setInterval(() => {
       //this.count++;
       console.log("Timestamp: " + this.timestamp);
+      this.timestamp
     }, 100);
   },
   data() {

@@ -4,7 +4,7 @@
     <button v-on:click="clickMe">ClickMe1</button>
     <button v-on:click="clickMe2('Welcome to VueJS')">ClickMe2</button>
     <button @click="clickMe2('Welcome to CodeMobiles')">ClickMe3</button>
-    <h3>{{getTimestamp()}}</h3>
+    <h3>{{ getTimestamp() }}</h3>
   </div>
 </template>
 
@@ -12,25 +12,23 @@
 export default {
   name: "Demo2",
   mounted() {
-    this.initial()
+    this.initial();
   },
   methods: {
-    initial(){
-      console.log("Initialization")
+    initial() {
+      console.log("Initialization");
     },
-    clickMe(){
-      alert("Hi")
+    clickMe() {
+      alert("Hi");
     },
-    clickMe2(message){
-      alert(message)
+    clickMe2(message) {
+      alert(message);
     },
-    getTimestamp(){
-      return Date()
+    getTimestamp() {
+      return Date();
     }
-  },
-}
+  }
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

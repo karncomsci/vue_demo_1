@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Content />
+    <!-- Sent onClock from Footer component by $emit -->
     <Footer
       @onClock="onClock"
       title="Copyright 2020 by CodeMobiles Ltd."
